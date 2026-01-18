@@ -2,7 +2,7 @@
 
 A comprehensive platform for evaluating and mitigating bias in AI models, with a focus on facial recognition and loan approval systems. The platform provides a user-friendly web interface and RESTful API for analyzing model fairness across different demographic groups.
 
-## 🌟 Features
+## Features
 
 ### Face Recognition Module
 - Evaluate bias in face recognition models (ONNX, PyTorch, TensorFlow)
@@ -29,7 +29,7 @@ A comprehensive platform for evaluating and mitigating bias in AI models, with a
 - Protected API endpoints
 - Activity logging
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.8+
@@ -97,7 +97,7 @@ A comprehensive platform for evaluating and mitigating bias in AI models, with a
    ```
    The frontend will be available at `http://localhost:3000`
 
-## 📚 Project Structure
+## Project Structure
 
 ```
 FairAi/
@@ -122,7 +122,7 @@ FairAi/
         └── App.js                  # Main application component
 ```
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/signup` - User registration
@@ -151,7 +151,7 @@ FairAi/
 ### System
 - `GET /api/health` - Health check
 
-## 🔧 Configuration
+## Configuration
 
 ### Face Recognition Configuration
 ```json
@@ -179,7 +179,7 @@ FairAi/
 }
 ```
 
-## 🌐 Environment Variables
+## Environment Variables
 
 | Variable | Description | Default |
 |----------|-------------|---------|
@@ -189,7 +189,7 @@ FairAi/
 | `DEFAULT_FACE_DATASET_PATH` | Path to default face dataset | './dataset/facial_recognition' |
 | `JWT_ACCESS_TOKEN_EXPIRES` | JWT token expiration time | '3600' (1 hour) |
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) before submitting pull requests.
 
@@ -199,15 +199,15 @@ Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTIN
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ✉️ Contact
+## Contact
 
 For questions or feedback, please open an issue on our [GitHub repository](https://github.com/Yuvanraj-K-S/FairAi/issues).
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Flask](https://flask.palletsprojects.com/)
 - [React](https://reactjs.org/)
